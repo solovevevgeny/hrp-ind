@@ -19,9 +19,17 @@
             <x-Navigation/>
         </nav>
 
-        <div style="height:100px;">
+        <div>
              <x-sliderComponent sliderId="1" />
         </div>
+
+  
+        <div class="row">
+            <div class="col-4"><x-Card title="Восстановление двигателей" link='/reman-engines' /></div>
+            <div class="col-4"><x-Card title="Ремонт двигателей" link='/service-engines' /></div>
+            <div class="col-4"> <x-Card title="Запчасти для двигателей" link='/parts' /></div>
+        </div>      
+
 
     </div>
 

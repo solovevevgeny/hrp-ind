@@ -15,22 +15,21 @@
 <body>
 
     <div class="container">
-
-        <header>
-            header
-        </hedaer>
-        
         <nav>
             <x-Navigation/>
         </nav>
 
-
-        <footer>
-        footer
-    </footer>
+        <div style="height:100px;">
+             <x-sliderComponent sliderId="1" />
+        </div>
 
     </div>
 
+   
+
+    <footer>
+        footer
+    </footer>
     
 
 
